@@ -1,0 +1,1 @@
+sudo salt-ssh --roster-file=roster \* -i --raw "sudo wget -qO- https://raw.githubusercontent.com/lukasz-bielinski/python-on-coreos/master/install-python-on-coreos.sh | sudo bash" -l all
